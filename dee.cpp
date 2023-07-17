@@ -16,6 +16,7 @@ int main()
   cin >> sale;
   cout<< "enter commission : ";
   cin >> commission;
+  cout << "------output------\n";
   cout<<"your name = "<<name<<"."<<endl;
   cout<<"total revenue "<<salary+(sale*(commission/100))<< endl;
 
